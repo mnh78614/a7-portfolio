@@ -1,31 +1,36 @@
 import React, { Component } from 'react';
 
-import {Row, Col} from 'react-grid-system';
+import {Container, Row, Col} from 'react-grid-system';
 
 import {Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'material-ui/Card';
 
 const styles = {
-  image: {
-    maxWidth: 400,
-    maxHeight: 400,
+  card: {
     display: 'block',
     marginLeft: 'auto',
-    marginRight: 'auto'
-  }
-}
+    marginRight: 'auto',
+    maxWidth: 600
+  },
+    image: {
+    maxWidth: 400,
+    maxHeight: 800
+    }
+};
 class Home extends Component {
   render() {
     return (
+        <Container>
           <Card>
-            <CardMedia style={styles.image}
+            <CardMedia style={styles.card}
               className="profilepic">
-              <img src="/img/portfoliopic.jpg" />
+              <img src="/img/portfoliopic.jpg" style={styles.image}/>
             </CardMedia>
             
-            <CardText>
+            <CardText style={{textAlign: 'center'}}>
             <em>An aspiring designer on a journey to empower people with technology</em>
             </CardText>
           </Card>
+        </Container>
     );
   }
 }

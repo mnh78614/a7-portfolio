@@ -2,11 +2,6 @@
 	box-sizing: border-box !important;
 }
 
-img {
-	height: 100% !important;
-	width: 100% !important;
-}
-
 body {
   margin: 0;
   padding: 0;
