@@ -64,7 +64,9 @@ var Work = React.createClass({
               	/>
             </CardMedia>
             <CardText>
+            <a href="https://students.washington.edu/muhamh/info343/a5-spotify-mnh78614/">
               Using the Soptify API and ReactJS to recreate Spotify
+                             </a>
             </CardText>
           </Card>
             <br/>
@@ -79,7 +81,9 @@ var Work = React.createClass({
                 />
             </CardMedia>
             <CardText>
+                             <a href="https://students.washington.edu/muhamh/info343/a3-mapping-mnh78614/">
               Applying JavaScript and jQuery to map out police shootings from a csv file to display on leaflet map.
+                             </a>
             </CardText>
           </Card>
           <br/>
@@ -92,7 +96,9 @@ var Work = React.createClass({
                 />
             </CardMedia>
             <CardText>
+                             <a href="https://students.washington.edu/muhamh/info343/a2-html-css-mnh78614/">
               Applying HTML and CSS to create a complex website about a pencil.
+                             </a>
             </CardText>
             <br/>
           </Card>
