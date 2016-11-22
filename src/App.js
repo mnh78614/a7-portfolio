@@ -7,6 +7,7 @@ import AppBar from 'material-ui/AppBar';
 import Drawer from 'material-ui/Drawer';
 import MenuItem from 'material-ui/MenuItem';
 
+
 import Paper from 'material-ui/Paper';
 
 var App = React.createClass({
@@ -21,19 +22,19 @@ var App = React.createClass({
   render() {
     return (
       <div>
-        <AppBar title="Muhammad"
+        <AppBar title="Muhammad's Portfolio"
           onTouchTap={this.toggle}/>
 
         <Drawer
           open={this.state.open}>
 
-          <Link to='/'>
+          <Link to='/' onTouchTap={this.toggle}>
             <MenuItem>Home</MenuItem>
           </Link>
-          <Link to="/about">
+          <Link to="/about" onTouchTap={this.toggle}>
             <MenuItem>About</MenuItem>
           </Link>
-          <Link to="/work">
+          <Link to="/work" onTouchTap={this.toggle}>
             <MenuItem>Work</MenuItem>
           </Link>
         </Drawer>
@@ -50,7 +51,7 @@ var App = React.createClass({
           bottom: 0,
           width: '100%'
         }} zDepth={3}>
-          <h3><em>C Muhammad Hussein</em></h3>
+          <h3><em>&copy; Muhammad Hussain Info343</em></h3>
         </Paper>
       </div>
     );

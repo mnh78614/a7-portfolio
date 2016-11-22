@@ -11,32 +11,52 @@ class About extends Component {
         <Col sm={12} md={4}>
           <Card>
             <CardMedia
-              overlay={<CardTitle title="Overlay title" subtitle="Overlay subtitle" />}
             >
-              <img src="http://a4.files.biography.com/image/upload/c_fill,cs_srgb,dpr_1.0,g_face,h_300,q_80,w_300/MTE4MDAzNDEwMDU4NTc3NDIy.jpg" />
+              <img src="../img/about.jpg" />
             </CardMedia>
-            <CardTitle title="Card title" subtitle="Card subtitle" />
-            <CardText>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Donec mattis pretium massa. Aliquam erat volutpat. Nulla facilisi.
-              Donec vulputate interdum sollicitudin. Nunc lacinia auctor quam sed pellentesque.
-              Aliquam dui mauris, mattis quis lacus id, pellentesque lobortis odio.
-            </CardText>
+            
           </Card>
         </Col>
 
         <Col sm={12} md={8}>
           <Card>
-            <CardTitle title="Card title" subtitle="Card subtitle" />
+            <CardTitle title="About Me" />
             <CardText>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Donec mattis pretium massa. Aliquam erat volutpat. Nulla facilisi.
-              Donec vulputate interdum sollicitudin. Nunc lacinia auctor quam sed pellentesque.
-              Aliquam dui mauris, mattis quis lacus id, pellentesque lobortis odio.
+              I was born and raised in the greater Boston Massachusetts area. Ever since I was a child I have been fascinated with what technology does and how it can empower other people. Seeing commercials on TV like how companies like Google, Microsoft, Amazon and Apple use their technology to provide solutions to their consumers made me want to be able to design user interfaces. Technology is growing at an exponential rate, and there needs to be someone who can translate the complexity of code to a simple UI, and that’s what I hope to do one day.
             </CardText>
           </Card>
+          <br/>
         </Col>
 
+        <Col sm={12} md={8}>
+          <Card>
+            <CardTitle title="Skills" subtitle="What I'm Good At"/>
+            <CardText>
+              <ul>
+                <li>User Experience Desing</li>
+                <li>User Centered Design</li>
+                <li>Human Computer Interaction</li>
+                <li>Public Speaking</li>
+                <li>Leadership</li>
+                <li>Project Management</li>
+                <li>Conflict Resolution</li>
+                <li>Customer Service</li>
+              </ul>
+            </CardText>
+          </Card>
+          <br/>
+        </Col>
+
+    <Col sm={12} md={12}>
+          <Card>
+            <CardTitle title="Inspiration" subtitle="My childhood heroTa"/>
+            <CardMedia
+            >
+              <img src="https://nesncom.files.wordpress.com/2015/08/david-ortiz-home-run.jpg" />
+            </CardMedia>
+          </Card>
+          <br/>
+        </Col>
       </Row>
     );
   }
